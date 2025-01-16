@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 
 # Load the InkML file
-inkml_file = "mathwriting-2024/mathwriting-2024/test/0baddebeb93d38ba.inkml"  # Update path
+inkml_file = "mathwriting-2024/mathwriting-2024/test/0baddebeb93d38ba.inkml"  # Update path https://arxiv.org/html/2404.10690v1#S4
 tree = ET.parse(inkml_file)
 root = tree.getroot()
 
